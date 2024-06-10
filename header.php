@@ -7,27 +7,33 @@
   </head>
   <body <?php body_class(); ?>>
     <header class="site-header">
-      <div class="container">
-        <h1 class="logo-text float-left">
-          <a href="#"><strong>SanDiegoCounty</strong>.gov</a>
-        </h1>
-        <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-        <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-        <div class="site-header__menu group">
-          <nav class="main-navigation">
-            <ul>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Departments</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Locations</a></li>
-            </ul>
-          </nav>
-          <!-- <div class="site-header__util">
-            <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
-            <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
-            <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-          </div> -->
-        </div>
-      </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a href="<?php echo site_url() ?>""><strong>SanDiegoCounty</strong>.gov</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse main-navigation" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.sandiegocounty.gov/content/sdc/cosd/services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.sandiegocounty.gov/content/sdc/cosd/departments.html">Departments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.countynewscenter.com/">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo get_post_type_archive_link('event') ?>">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.countynewscenter.com/">Locations</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
     </header>

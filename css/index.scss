@@ -1,9 +1,19 @@
 @import 'normalize.css';
 
+// Variable overrides first
+$primary: rgb(0, 119, 255);
+$enable-shadows: true;
+$prefix: 'mo-';
+
+// Then import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
 @import 'base/variables.scss';
 @import 'base/baseline.scss';
 @import 'base/utility-classes.scss';
 
-@import 'modules/site-header.scss';
+// @import 'modules/site-header.scss';
 @import 'modules/page-banner.scss';
+@import 'modules/btn';
 @import 'modules/main-navigation.scss';
+@import 'modules/section.scss';

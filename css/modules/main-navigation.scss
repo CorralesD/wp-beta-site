@@ -1,5 +1,6 @@
 .main-navigation {
   padding-top: 2px;
+  flex-direction: row-reverse !important;
 
   ul {
     padding: 0;
@@ -8,7 +9,7 @@
 
   ul:before,
   ul:after {
-    content: " ";
+    content: ' ';
     display: table;
   }
 
@@ -34,9 +35,9 @@
 .main-navigation a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: $mainBlue;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   @include atMedium {
     display: inline-block;
     padding: 0;
