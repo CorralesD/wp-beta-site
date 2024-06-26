@@ -35,24 +35,23 @@
 
     <div class="col mb-3">
       <h5>Stay Connected</h5>
-      <ul class="nav flex-column">
+      <ul class="nav ">
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Enroll in our newsletter</a></li>
+        <div class="flex-row d-inline-flex">
         <li>
-                  <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#">Accesibility</a></li>
-        <li class="nav-item mb-2"><a href="#">View our Privacy Policy</a></li>
+          <a href="#" class="social-color-facebook m-2"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#" class="social-color-twitter m-2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#" class="social-color-youtube m-2"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#" class="social-color-instagram m-2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        </div>
+
       </ul>
     </div>
   </footer>

@@ -33,11 +33,18 @@ function beta_theme_post_types() {
         ),
         'menu_icon' => 'dashicons-calendar',
     ) );
+
+    require_once(dirname(__FILE__).'/lib/services.php');
+
 }
 
 add_action('init', 'beta_theme_post_types');
 
-require_once(dirname(__FILE__).'/lib/banner.php');
+require_once(dirname(__FILE__).'/lib/hero.php');
+
+require_once(dirname(__FILE__).'/lib/sectionHeader.php');
+
+require_once(dirname(__FILE__).'/lib/pageBanner.php');
     
 
 ?>

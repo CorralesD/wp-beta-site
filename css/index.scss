@@ -13,7 +13,9 @@ $prefix: 'mo-';
 @import 'base/utility-classes.scss';
 
 // @import 'modules/site-header.scss';
-@import 'modules/page-banner.scss';
+// @import 'modules/page-banner.scss';
 @import 'modules/btn';
 @import 'modules/main-navigation.scss';
 @import 'modules/section.scss';
+
+@import './modules/page-components/page-banner.scss';

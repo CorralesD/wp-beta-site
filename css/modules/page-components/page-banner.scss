@@ -1,0 +1,16 @@
+.page-banner {
+  background-color: rgba(21, 98, 161) !important;
+  color: #fff;
+
+  &__content {
+    vertical-align: middle;
+    padding: 2rem 2rem 2rem 1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    padding-left: 0.5em;
+    margin-left: 0;
+  }
+}
